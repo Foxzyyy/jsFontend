@@ -1,18 +1,27 @@
 {
   "name": "jsfontend",
   "version": "1.0.0",
-  "description": "",
-  "main": "AxiosNodeHtml.js",
+  "description": "Font-End for the API Project Node.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Foxzyyy/jsFontend.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Foxzyyy/jsFontend/issues"
+  },
+  "homepage": "https://github.com/Foxzyyy/jsFontend#readme",
   "dependencies": {
     "axios": "^1.6.7",
     "body-parser": "^1.20.2",
     "ejs": "^3.1.9",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "pg": "^8.11.3"
   }
 }
